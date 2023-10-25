@@ -1,0 +1,15 @@
+# @package _global_
+env_name: mbpo_inverteddoublependulum
+num_train_steps: 1e5
+eval_freq: 5000
+# replay_buffer_capacity: 1e6
+
+# Environment-specific overrides:
+learn_temp:
+  init_targ_entr: -2
+  final_targ_entr: -2
+  entr_decay_factor: 1.0
+
+agent:
+  horizon: 3
+  warmup_steps: 0
