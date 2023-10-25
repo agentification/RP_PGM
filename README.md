@@ -10,6 +10,8 @@ Authors: [Shenao Zhang](https://shenao-zhang.github.io), [Boyi Liu](https://scho
 The code can be set up by:
 
 ```
+git clone https://github.com/agentification/RP_PGM.git
+cd RP_PGM
 python setup.py develop
 ```
 
